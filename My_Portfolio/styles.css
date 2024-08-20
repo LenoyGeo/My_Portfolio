@@ -1,183 +1,206 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 header h1 {
-    margin: 0;
+  margin: 0;
 }
 header .marquee {
-    width: 100%;
-    overflow: hidden;
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    margin: 10px 0;
+  width: 100%;
+  overflow: hidden;
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  margin: 10px 0;
 }
 header .marquee p {
-    display: inline-block;
-    white-space: nowrap;
-    animation: marquee 10s linear infinite;
-    font-size: 16px;
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+  font-size: 16px;
 }
 header nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 header ul {
-    display: flex;
-    padding: 0;
-    list-style: none;
+  display: flex;
+  padding: 0;
+  list-style: none;
 }
 header li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 header a:hover {
-    color: #77c3d5;
+  color: #77c3d5;
 }
 .image {
-    text-align: right;
-    margin: 20px 0;
+  text-align: right;
+  margin: 20px 0;
 }
 .profile-pic {
-    border-radius: 50%;
-    border: 2px solid #333;
+  border-radius: 50%;
+  border: 2px solid #333;
 }
 .intro {
-    padding: 20px;
-    background: #e2e2e2;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    animation: fadeIn 2s ease-in-out;
+  padding: 20px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
 .section {
-    padding: 20px;
-    background: #fff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
 }
 .section h2 {
-    color: #333;
+  color: #333;
 }
 .section a {
-    color: #333;
-    text-decoration: underline;
+  color: #333;
+  text-decoration: underline;
 }
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 footer .social-icons {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 footer .social-icon {
-    margin: 0 10px;
-    color: #fff;
-    font-size: 24px;
-    text-decoration: none;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
 }
 footer .social-icon:hover {
-    color: #77c3d5;
+  color: #77c3d5;
 }
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
-table, th, td {
-    border: 1px solid #ddd;
+table,
+th,
+td {
+  border: 1px solid #ddd;
 }
-th, td {
-    padding: 10px;
-    text-align: left;
+th,
+td {
+  padding: 10px;
+  text-align: left;
 }
 th {
-    background: #333;
-    color: #fff;
+  background: #333;
+  color: #fff;
 }
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 .hobbies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .hobby {
-    flex-basis: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    height: 400px; /* Adjusted height to accommodate text */
+  flex-basis: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  height: 400px; /* Adjusted height to accommodate text */
 }
 .hobby img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    opacity: 0;
-    transform: scale(0.8);
-    animation: hobbyImgAnim 1s forwards;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: hobbyImgAnim 1s forwards;
 }
-.hobby:nth-child(1) img { animation-delay: 0.2s; }
-.hobby:nth-child(2) img { animation-delay: 0.4s; }
-.hobby:nth-child(3) img { animation-delay: 0.6s; }
-.hobby:nth-child(4) img { animation-delay: 0.8s; }
-.hobby:nth-child(5) img { animation-delay: 1s; }
-.hobby:nth-child(6) img { animation-delay: 1.2s; }
+.hobby:nth-child(1) img {
+  animation-delay: 0.2s;
+}
+.hobby:nth-child(2) img {
+  animation-delay: 0.4s;
+}
+.hobby:nth-child(3) img {
+  animation-delay: 0.6s;
+}
+.hobby:nth-child(4) img {
+  animation-delay: 0.8s;
+}
+.hobby:nth-child(5) img {
+  animation-delay: 1s;
+}
+.hobby:nth-child(6) img {
+  animation-delay: 1.2s;
+}
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes hobbyImgAnim {
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 @keyframes marquee {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 @media (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-    header ul {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-    header li {
-        margin: 10px 0;
-    }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  header li {
+    margin: 10px 0;
+  }
 }
